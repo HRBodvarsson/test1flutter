@@ -1,0 +1,6 @@
+{
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "cSpell.enableFiletypes": [
+        "!dart"
+    ]
+}
