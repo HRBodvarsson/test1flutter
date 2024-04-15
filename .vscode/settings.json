@@ -1,6 +1,7 @@
 {
     "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-    "cSpell.enableFiletypes": [
-        "!dart"
+    "editor.fontSize": 15,
+    "cSpell.words": [
+        "ARGB"
     ]
 }

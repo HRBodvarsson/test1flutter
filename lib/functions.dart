@@ -1,7 +1,7 @@
-void add(int num1, int num2) {
-  num1 + num2;
+int add(int num1, int num2) {
+  return num1 + num2;
 }
 
-void demo() {
-  add('5', '3');
+void main() {
+  print(add(5, 2));  //print() is a built-in debugging function
 }
