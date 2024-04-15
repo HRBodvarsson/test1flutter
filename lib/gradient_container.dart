@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:test1flutter/dice_roller.dart';
+// import 'package:test1flutter/styled_text.dart';
 
 //var startAlignment; would be a dynamic variable (not recommended)
 const startAlignment = Alignment.topLeft;
@@ -15,6 +17,7 @@ class GradientContainer extends StatelessWidget {
   final Color color1;
   final Color color2;
 
+
   @override
   Widget build(context) {
     return Container(
@@ -26,9 +29,7 @@ class GradientContainer extends StatelessWidget {
         ),
       ),
       child: Center(
-        child: Image.asset ('assets/images/dice-6.png',
-        width: 200,
-        ),
+        child: DiceRoller(),
       ),
     );
   }

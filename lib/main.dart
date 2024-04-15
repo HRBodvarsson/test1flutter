@@ -11,11 +11,11 @@ void main() {
     const MaterialApp(
       home: Scaffold(
         body: GradientContainer(
-                Color.fromARGB (255, 124, 101, 165),
-                Color.fromARGB (255, 43, 4, 71),
-          ),
+          Color.fromARGB (255, 33, 4, 82),
+          Color.fromARGB (255, 19, 16, 5),
         ),
       ),
+    ),
   );
   //arguments = calling a function
   //parameters = defining a function
